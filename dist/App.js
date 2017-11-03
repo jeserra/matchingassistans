@@ -4,6 +4,7 @@ const logger = require('morgan');
 const bodyParser = require('body-parser');
 const HeroRouter_1 = require('./routes/HeroRouter');
 const AssociateRouter_1 = require('./routes/AssociateRouter');
+const TutorRouter_1 = require('./routes/TutorRouter');
 // Creates and configures an ExpressJS web server.
 class App {
     //Run configuration methods on the Express instance.
@@ -33,6 +34,7 @@ class App {
         this.express.use('/', router);
         this.express.use('/api/v1/heroes', HeroRouter_1.default);
         this.express.use('/api/v1/associates', AssociateRouter_1.default);
+        this.express.use('/api/v1/tutors', TutorRouter_1.default);
     }
 }
 Object.defineProperty(exports, "__esModule", { value: true });
