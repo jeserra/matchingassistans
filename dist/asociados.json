@@ -1,0 +1,71 @@
+[{
+	"id": 1,
+	"name": "Brian Cox",
+	"titles": ["Carl Lucas",
+	"Power Man",
+	"Mr. Bulletproof",
+	"Hero for Hire"],
+	"occupation": "bartender",
+	"gender": "male",
+	"height": 1.65,
+	"hair": "bald",
+	"eyes": "brown",
+	"urlPhoto": "www.photobucket.com",
+	"certifications": ["strength",
+	"durability",
+	"healing"],
+	"weekavailability": [{
+		"monday": {
+			"start": "8:00",
+			"finish": "14:00"
+		}
+	},
+	{
+		"friday": {
+			"start": "8:00",
+			"finish": "14:00"
+		}
+	},
+	{
+		"saturday": {
+			"start": "8:00",
+			"finish": "14:00"
+		}
+	}],
+	"rating": 4.9
+},
+{
+	"id": 2,
+	"name": "Michael Jordan",
+	"titles": ["MVP",
+	"6 NBA titles",
+	"Mr. Air"],
+	"occupation": "Basquetball",
+	"gender": "male",
+	"height": 1.65,
+	"hair": "bald",
+	"eyes": "brown",
+	"urlPhoto": "www.photobucket.com",
+	"certifications": ["strength",
+	"durability",
+	"healing"],
+	"weekavailability": [{
+		"monday": {
+			"start": "8:00",
+			"finish": "14:00"
+		}
+	},
+	{
+		"friday": {
+			"start": "8:00",
+			"finish": "14:00"
+		}
+	},
+	{
+		"saturday": {
+			"start": "8:00",
+			"finish": "14:00"
+		}
+	}],
+	"rating": 4.9
+}]
